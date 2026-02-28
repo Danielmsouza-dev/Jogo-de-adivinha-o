@@ -1,0 +1,63 @@
+:root {
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.container {
+  width: min(90%, 420px);
+  padding: 1.5rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.92);
+  color: #111;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+h1 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.instructions {
+  margin-bottom: 1.2rem;
+  text-align: center;
+}
+
+.game-controls {
+  display: grid;
+  gap: 0.6rem;
+}
+
+input,
+button {
+  font-size: 1rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+  color: #fff;
+  background-color: #0077ff;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #005fd0;
+}
+
+#message,
+#attempts {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 600;
+}
